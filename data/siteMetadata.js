@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'YiTai Bob Blog',
+  title: 'YiTai's Tech Lab | 系統維運與資安實踐',
   author: 'YiTai Chen',
   headerTitle: 'YiTai Bob Blog',
   description: 'A blog created with Next.js and Tailwind.css',
