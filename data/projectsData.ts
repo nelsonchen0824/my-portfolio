@@ -7,20 +7,16 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
+    title: '大型企業虛擬化平台維運',
+    description: `負責超過百台虛擬機器的架構優化與日常維運，確保系統達到 99.9% 的可用性。`,
+    imgSrc: '/static/images/google.png', // 之後可以換成自己的圖
     href: 'https://www.google.com',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
+    title: '資訊安全實施專案',
+    description: `針對客戶環境進行弱點掃描與防護加強，成功對抗多起入侵嘗試。`,
     imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    href: '/blog/security-project',
   },
 ]
 
